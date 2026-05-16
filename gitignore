@@ -1,0 +1,135 @@
+# ===========================
+# COMPILED OUTPUT
+# ===========================
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+
+# ===========================
+# MAVEN
+# ===========================
+.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# ===========================
+# SPRING BOOT
+# ===========================
+spring-shell.log
+*.log
+logs/
+log/
+
+# ===========================
+# IDE - IntelliJ IDEA
+# ===========================
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# ===========================
+# IDE - Eclipse / STS
+# ===========================
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+bin/
+
+# ===========================
+# IDE - VS Code
+# ===========================
+.vscode/
+*.code-workspace
+
+# ===========================
+# IDE - NetBeans
+# ===========================
+nbproject/private/
+nbbuild/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# ===========================
+# OS FILES
+# ===========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ===========================
+# ENVIRONMENT & SECRETS
+# ===========================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+*.truststore
+application-local.yml
+application-local.properties
+application-secret.yml
+application-secret.properties
+
+# ===========================
+# DOCKER
+# ===========================
+docker-compose.override.yml
+
+# ===========================
+# TESTING
+# ===========================
+/test-output/
+surefire-reports/
+failsafe-reports/
+
+# ===========================
+# LOCALSTACK / AWS LOCAL
+# ===========================
+.localstack/
+volume/
+
+# ===========================
+# SONARQUBE
+# ===========================
+.sonar/
+.scannerwork/
+
+# ===========================
+# MISC
+# ===========================
+*.tmp
+*.bak
+*.swp
+*.orig
+hsqldb/
